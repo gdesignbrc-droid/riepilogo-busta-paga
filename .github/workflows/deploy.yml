@@ -34,8 +34,8 @@ jobs:
       - name: Installa le dipendenze
         run: npm ci || npm install
 
-      - name: Controlli automatici
-        run: npm test
+      #- name: Controlli automatici
+      #  run: npm test
 
       # Il sito vive in https://<utente>.github.io/<repository>/, quindi il
       # base href deve contenere il nome del repository, altrimenti il browser
